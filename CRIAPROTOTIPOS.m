@@ -1,0 +1,1 @@
+function [novosPrototipos] = CRIAPROTOTIPOS(prototiposRuins)    [~,dim] = size(prototiposRuins);   novosPrototipos = (0.1*rand(1,dim)).*prototiposRuins+prototiposRuins;     endfunction
